@@ -1,0 +1,7 @@
+we create afolder,create sub folder,delete, by using cmd 
+to create afolder mkdir foldername
+to create sub folder first we goto the first folder by usind cd folder name andthen mkdir foldername
+
+what is programing 
+proggraming is aset of instruction.
+their are many programing languages java,c
