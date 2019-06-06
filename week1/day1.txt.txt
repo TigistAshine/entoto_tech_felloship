@@ -5,3 +5,4 @@ to create sub folder first we goto the first folder by usind cd folder name andt
 what is programing 
 proggraming is aset of instruction.
 their are many programing languages java,c
+"Wengi is awesome"
