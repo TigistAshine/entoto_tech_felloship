@@ -1,0 +1,23 @@
+// var weatherTempreture = 23
+// if (weatherTempreture < 10){
+//   console.log("its cold outside")
+//   }
+// else if(weatherTempreture > 20){
+//   console.log("its warm outside")
+// }
+// else {
+//   console.log("its nice weather")
+// }
+var tg
+function weatherTempreture(tg){
+if (tg < 10){
+  return("its cold outside")
+  }
+else if(tg > 20){
+ return("its warm outside")
+ }
+ else {
+ return("its nice weather")
+ }
+}
+console.log(weatherTempreture(25))
