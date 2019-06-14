@@ -12,6 +12,16 @@ header{
 
 }
 footer{
-    background-color: forestgreen;
+    background-color: darksalmon;
 
+}
+.nav{
+    justify-content:center;
+      display: flex;
+}
+.nav h1{
+    margin: 20px 40px 20px 40px;
+}
+.pic{
+    border-radius: 100px;
 }
