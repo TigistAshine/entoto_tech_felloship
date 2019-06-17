@@ -1,0 +1,50 @@
+    
+ .button1{
+    padding: 16px 32px;
+    text-align: center;
+    display: flexbox;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color:cadetblue;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+.button11:hover {
+    background-color:hotpink;
+    
+}
+.button2{
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid gray;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+
+
+.button22:hover{
+    background-color: aqua;
+    flex-wrap: wrap;   
+}
+
+
+.nav{
+    justify-content:center;
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;   
+}
+
+.pic{
+
+    border-radius: 100px;
+    flex-wrap: wrap;   
+}
+
+
