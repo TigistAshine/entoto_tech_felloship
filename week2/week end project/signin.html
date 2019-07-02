@@ -1,0 +1,91 @@
+<DOCTYPE html>
+    <html>
+        <head>
+                <a href="home.html" ></a>
+            <!-- <script type="text/javascript" src="./login.js"></script> -->
+ <script>
+
+ var login= {
+    Firstname:"Tigist",
+    Email:"tigistashine22@gmail.com",
+    Phone:"0922864247"
+}
+function user() {
+    
+
+     var Firstname = document.getElementById('firstname').value;
+     var Email=document.getElementById('Email').value;
+ var Phone=document.getElementById('phone').value;
+
+     if (Firstname==login.Firstname && login.Email && login.Phone)
+      {
+    window.location.href="./home.html";
+        alert('successfully login');
+     }else {
+        alert("incorrect input");
+     }
+  
+}
+
+</script> 
+
+
+            <style>
+                    .section{
+                        text-align: center;
+                        color: azure;
+                        flex-wrap: wrap;
+                    }
+                        .section1{
+                        text-align: center;
+                        color: black;
+                        flex-wrap: wrap;
+                        }
+                     .ab{
+                        background-image: url(image.jpg);
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        margin-top: 100px;
+                        flex-wrap: wrap;
+                    }
+                 .subbmit{
+                    width: 70px;
+                    height: 30px;
+                    justify-content: center;
+                    background-color:rgb(220, 227, 231);
+                    text-decoration: none;
+                    display: inline-block;
+                    text-align: center;
+                    flex-wrap: wrap;
+                }
+                .h2{ 
+        text-align: center;
+        margin-top: 20;
+        color:rgb(0, 255, 149);
+        font-size: 40px;
+        flex-wrap: wrap;
+           }
+                </style>
+        </head>
+        <body>
+            
+       
+                <div class="h2">
+                    <h2 >Welcome  To  Ethio Park </h2>
+                </div>
+                <body>
+                    <div class="ab">
+            <h1 class="section1" > Sign In</h1>
+            <div class="section">
+            Name:
+            <input type="text"  id="firstname" placeholder="Enter Your Name"><b><br></br>
+            Email:
+            <input type="text" id="Email"placeholder="Enter Your Email"><br></br>
+            Phone:
+            <input type="text"  id="phone" placeholder="Enter Your phone Number"><b></b><br></br>
+            <!-- <input type="button"  value="subbmit" class="subbmit" >subbmit</a> -->
+            <input type="button" onclick="user()" value="Login">
+        </div>
+    </div>
+        </body>
+    </html>

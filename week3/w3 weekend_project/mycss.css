@@ -1,0 +1,14 @@
+body{
+    background-image: url("kittens-555822_1280.jpg");
+     display: flex; 
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    width: 300px;
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 60px 20px;
+}

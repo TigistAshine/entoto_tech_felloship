@@ -1,0 +1,51 @@
+     .flex-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+border-radius: 100%;
+        flex-wrap: wrap;  
+        /* border-radius: 50px; */
+
+     }
+     .flex-container1 {
+    align-items: flex-start;
+        display: flex;
+        flex-direction: row;
+justify-content: space-between;
+margin-right: 10px;
+margin-left: 10px;
+}
+    .pa{
+        width: 18%;
+        margin-top: 50px;
+        font-size: 20px;
+        
+    }
+    .item {
+    text-align: center;
+    font-size: 80px;
+    color: darkorange;
+    }
+ .button1{
+    padding: 16px 32px;
+    text-align: center;
+    display: flexbox;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color:cadetblue;
+    justify-content: center;
+    flex-wrap: wrap;   
+}
+   .button11:hover {
+    background-color:hotpink;
+   }
+.pic{
+
+    border-radius: 100px;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+
+
