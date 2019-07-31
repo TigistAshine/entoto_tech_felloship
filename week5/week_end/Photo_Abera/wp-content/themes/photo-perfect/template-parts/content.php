@@ -1,4 +1,4 @@
-<?php
+<!-- <<?php
 /**
  * Template part for displaying posts.
  *
@@ -45,4 +45,4 @@
     <?php endif ?>
 
 
-</article><!-- #post-## -->
+</article>#post-## -->

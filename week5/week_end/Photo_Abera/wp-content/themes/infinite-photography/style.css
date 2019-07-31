@@ -844,10 +844,10 @@ object {
 .search-block input.menu-search, 
 .widget_search input.menu-search {
     font-size: 13px;
-    height: 50px;
+    height: 20px;
     line-height: 30px;
     padding: 0 0 0 8px;
-    width: 100%;
+    width: 20%;
 }
 .widget_search input.menu-search{
 	padding: 7px;
@@ -865,7 +865,7 @@ object {
     position: absolute;
     right: 0;
 	top: 0;
-    width: 84px;
+    width: 24px;
 }
 .sidebar .widget_search #searchsubmit {
 	width: 40px;
@@ -1001,7 +1001,7 @@ object {
 	.header-wrapper #site-navigation{
 		clear: both;
 		float: none;
-		width: 100%;
+		width: 25%;
 	}
 	.slicknav_btn:before {
 		background:#ffffff;
@@ -1037,7 +1037,7 @@ object {
 		border-top: 1px solid #383838;
 		display: block;
 		padding: 0 12px;
-		width: 100%;
+		width: 25%;
 	}
 	.slicknav_nav li a{
 		color:#fff;
